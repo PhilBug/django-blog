@@ -93,3 +93,5 @@ dmypy.json
 ### custom ###
 
 bootstrap-examples/
+/static
+/media
