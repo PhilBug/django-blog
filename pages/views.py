@@ -8,3 +8,6 @@ def index(request):
 
 def about(request):
     return render(request, 'pages/about.html')
+
+def post(request):  # temporary for styling
+    return render(request, 'pages/post.html')

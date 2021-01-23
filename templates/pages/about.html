@@ -2,9 +2,9 @@
 
 {% load static %}
 
-<link rel="stylesheet" href="{% static 'css/cards.css' %}">
-
 {% block content %}
+
+<link rel="stylesheet" href="{% static 'css/cards.css' %}">
 
 <main role="main">
 
@@ -25,15 +25,16 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-lg-8" style="margin: 0 auto; float: none; margin-bottom: 10px;">
+        <div class="col-lg-8 card-centered">
           <div class="card mb-4 shadow-lg mb-5 bg-white rounded">
             <img src="{% static 'img/blog-author.png' %}" class="img-fluid rounded " alt="Blog author">
 
             <div class="card-body">
-              <p class="card-text">Computer Engineering student. 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus porttitor velit ac nisl blandit, 
-                malesuada rhoncus eros posuere. Pellentesque non risus ac nisl condimentum gravida id at dui. 
-                Donec sed purus eu lacus pretium ornare sit amet id nulla. Nam sit amet tellus sit amet tortor vulputate scelerisque a commodo mi. 
+              <p class="card-text">Computer Engineering student.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus porttitor velit ac nisl blandit,
+                malesuada rhoncus eros posuere. Pellentesque non risus ac nisl condimentum gravida id at dui.
+                Donec sed purus eu lacus pretium ornare sit amet id nulla. Nam sit amet tellus sit amet tortor vulputate
+                scelerisque a commodo mi.
                 In augue leo, molestie id nisi id, suscipit consequat purus.</p>
             </div>
           </div>

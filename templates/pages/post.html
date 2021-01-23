@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/post.css' %}">
+
+<main role="main">
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1>How to properly water your plants?</h1>
+    </div>
+  </section>
+
+  <article>
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <a href="#">
+              <img class="img-fluid" src="{% static 'img/post-sample-image.jpg' %}" alt="">
+            </a>
+            <span class="caption text-muted" style="padding-bottom: 15rem;">To go places and do things that have never
+              been
+              done before – that’s what
+              living is all about.</span>
+            <br><br>
+
+            <!--  iterate over paragraphs -->
+            <p id="post-paragraph">Never in all their history have men been able truly to conceive of the world as one:
+              a single sphere, a
+              globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in
+              which
+              there is no center because every point, or none, is center — an equal earth which all men occupy as
+              equals.
+              The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.<br><br>
+              Never in all their history have men been able truly to conceive of the world as one:
+              a single sphere, a
+              globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in
+              which
+              there is no center because every point, or none, is center — an equal earth which all men occupy as
+              equals.
+              The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+            <p id="post-paragraph">Never in all their history have men been able truly to conceive of the world as one:
+              a single sphere, a
+              globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in
+              which
+              there is no center because every point, or none, is center — an equal earth which all men occupy as
+              equals.
+              The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+            <p id="post-paragraph">Never in all their history have men been able truly to conceive of the world as one:
+              a single sphere, a
+              globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in
+              which
+              there is no center because every point, or none, is center — an equal earth which all men occupy as
+              equals.
+              The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+          </div>
+  </article>
+</main>
+
+{% endblock %}

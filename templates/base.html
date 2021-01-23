@@ -29,12 +29,15 @@
     }
   </style>
 </head>
+
 <body>
   <!-- {% include 'partials/_topbar.html' %} -->
   {% include 'partials/_navbar.html' %}
+
   {% block content %} {% endblock %}
+
   {% include 'partials/_footer.html' %}
-  
+
   <script src="{% static 'js/jquery-3.5.1.min.js' %}"></script>
   <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
 </body>
