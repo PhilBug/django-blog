@@ -1,5 +1,47 @@
 {% extends 'base.html' %}
 
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'css/cards.css' %}">
+
 {% block content %}
-<h1>about</h1>
+
+<main role="main">
+
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1>About the author</h1>
+      <p class="lead text-muted">Maecenas fringilla ornare nisl, quis vulputate enim congue sed.
+        Sed et fermentum mi, in dapibus felis.Nunc dapibus velit quis eros rhoncus imperdiet.
+        Aliquam a dapibus enim. Pellentesque convallis bibendum lectus, a lacinia mi ullamcorper quis.</p>
+      <!-- <p>
+        <a href="#" class="btn btn-primary my-2">Main call to action</a>
+        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+      </p> -->
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-8" style="margin: 0 auto; float: none; margin-bottom: 10px;">
+          <div class="card mb-4 shadow-lg mb-5 bg-white rounded">
+            <img src="{% static 'img/blog-author.png' %}" class="img-fluid rounded " alt="Blog author">
+
+            <div class="card-body">
+              <p class="card-text">Computer Engineering student. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus porttitor velit ac nisl blandit, 
+                malesuada rhoncus eros posuere. Pellentesque non risus ac nisl condimentum gravida id at dui. 
+                Donec sed purus eu lacus pretium ornare sit amet id nulla. Nam sit amet tellus sit amet tortor vulputate scelerisque a commodo mi. 
+                In augue leo, molestie id nisi id, suscipit consequat purus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
 {% endblock %}
