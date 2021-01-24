@@ -21,7 +21,7 @@
             <img class="img-fluid" src="{{ post.photo.url }}" alt="{{ post.photo_description }}">
             <span class="caption text-muted image-desc">{{ post.photo_description }}</span>
             <br><br>
-            <p id="post-paragraph">{{ post.content }}</p>
+            <p id="post-paragraph">{{ post.content|linebreaksbr }}</p>
           </div>
   </article>
 </main>
