@@ -4,7 +4,7 @@
 
 This is a simple blog app.  
 It uses Django Framework for both frontend and backend as well as bootstrap for css styling.  
-Posts can be added via admin panel (localhost:8000/admin by default).  
+Posts can be added/deleted/edited via admin panel (localhost:8000/admin by default).  
 All credentials are stored in a provided `.env` file.
 
 ## Project structure
