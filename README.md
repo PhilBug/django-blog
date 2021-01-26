@@ -30,6 +30,7 @@ pip install -r requirements.txt
 
 or
 
+# (pip3 install pipenv)
 pipenv install
 ```
 
@@ -41,12 +42,12 @@ Run:
 ```bash
 ./manage.py runserver
 
-or (if using pipenv)
+# or (if using pipenv)
 
 pipenv shell; ./manage.py runserver
 ```
 
 ## Checking received emails
 
-Emails are sent to account defined by ADMIN_EMAIL environment variable (has to be enabled and whitelisted sendgrid api management panel).
+Emails are sent to account defined by `ADMIN_EMAIL` environment variable (has to be enabled and whitelisted sendgrid api management panel).
 Credentials to that account are provided in the `.env` file.
